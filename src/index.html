@@ -4,14 +4,77 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Portfolio Website</title>
 </head>
 
 <body>
+  <header>
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li class="nav-link"><a href="#about">About</a></li>
+        <li class="nav-link"><a href="#projects">Projects</a></li>
+        <li class="nav-link"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
   <main>
-    <h1>Vanilla JavaScript App</h1>
+    <section id="about">
+      <h1>Portfolio Website</h1>
+      <img src="https://via.placeholder.com/150" alt="Ahmad Wahab">
+      <p>Hi, I'm Ahmad Wahab, 2nd year Student at UET LAHORE New Campus</p>
+      <p>I'm a web developer and I'm passionate about learning new things and building new projects.</p>
+    </section>
+    <hr>
+    <section id="projects">
+      <h1>Projects</h1>
+      <div class="container">
+        <div class="project">
+          <img src="https://via.placeholder.com/150" alt="Project 1">
+          <h2>UI DESIGN</h2>
+          <p>A single page website design</p>
+          <a href="https://awxvision.vercel.app">Live</a>
+        </div>
+
+        <div class="project">
+          <img src="https://via.placeholder.com/150" alt="Project 2">
+          <h2>WEB DEVELOPMENT</h2>
+          <p>A single page porfolio website</p>
+          <a href="https://awxvision.vercel.app">Live</a>
+        </div>
+
+        <div class="project">
+          <img src="https://via.placeholder.com/150" alt="Project 3">
+          <h2>MOBILE APP</h2>
+          <p>A mobile app for a restaurant</p>
+          <a href="https://awxvision.vercel.app">Live</a>
+        </div>
+
+
+    </section>
+    <hr>
+
+    <section id="contact">
+      <h2>Contact</h2>
+
+      <div class="container">
+        <p class="links">Email:<a href="mailto:aw@mail.com">Mail</a></p>
+        <p class="links">Phone:<a href="tel:123-456-7890">Call</a></p>
+        <p class="links"><a href="www.github.com/awahamdwahab">Github</a></p>
+        <p class="links"><a href="www/linkedin.com/">LinkedIn</a></p>
+      </div>
+
+
+    </section>
+
   </main>
+
+  <footer>
+
+  </footer>
+
+  <script src="scripts.js"></script>
 </body>
 
 </html>
